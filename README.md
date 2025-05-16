@@ -132,4 +132,6 @@ personal-website/
 
 ## 📞 **Liên hệ**
 
-Mọi thắc mắc vui lòng mở **Issue** hoặc liên hệ: `you@example.com`
+Mọi thắc mắc vui lòng mở **Issue** hoặc liên hệ: 
+* **Gmail**: `quangt2234@gmail.com`
+* **Facebook**: `https://www.facebook.com/wwangh.ahn/`
