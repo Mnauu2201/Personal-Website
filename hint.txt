@@ -1,0 +1,16 @@
+BACKEND
+=====================================================================================================================================================================================================
+FRONTEND
+
+package.json
+dòng 5: "proxy": "http://localhost:8080": Mục đích của "proxy": "http://localhost:8080" là để trong môi trường phát triển (npm start), Create React App tự động chuyển (proxy) những request mà React
+ không tìm được file tĩnh sang server Spring Boot ở địa chỉ đó, tránh lỗi CORS khi bạn gọi API bằng đường dẫn tương đối như:
+        fetch('/api/hello')
+            hay
+        fetch('http://localhost:8080/api/hello')
+
+=====================================================================================================================================================================================================
+DIFFERENT
+- **Backend port** (`server.port`) chỉ ảnh hưởng tới Spring Boot.
+- **Frontend proxy** phải khớp với port backend nếu bạn dùng đường dẫn tương đối (`/api/...`) trong React.
+- Bạn hoàn toàn có thể dùng cổng 8082 (hoặc bất kỳ cổng nào trống) – chỉ cần cập nhật đồng bộ ở hai chỗ trên.     
