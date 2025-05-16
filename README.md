@@ -1,4 +1,4 @@
-# 🚀 **Personal Website**
+# 🚀 **Personal Website** 🚀
 
 ---
 
@@ -35,10 +35,12 @@ mkdir backend frontend
 
    * **Project**: Maven Project
    * **Language**: Java
-   * **Spring Boot**: 3.x
-   * **Group**: `com.yourname`
-   * **Artifact**: `personalwebsite-backend`
-   * **Dependencies**: Spring Web, Spring Boot DevTools (tùy chọn JPA, H2)
+   * **Spring Boot**: 3.4.5
+   * **Group**: `com.personalwebsite.quanganh`
+   * **Name**: `PersonalWebsite`
+   * **Artifact**: `PersonalWebsite`
+   * **Package name**: `com.personalwebsite.quanganh.PersonalWebsite`
+   * **Dependencies**: Spring Web, Spring Boot DevTools,Lombok, Spring Data JPA, H2 Database, My SQL Driver (tùy chọn JPA, H2)
 3. Nhấn **Generate** → tải file ZIP.
 4. Giải nén vào `backend/`:
 
